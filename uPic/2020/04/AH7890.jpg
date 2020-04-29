@@ -1,0 +1,1560 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-FG+rXqMOivrAjdEQE7tO4BwM1poGmg70hJFTlNSxjX87grtrZ6UnPR8NkzwUHlQEGviu9XuRYeO8zH9YwvZhdg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-146fab5ea30e8afac08dd11013bb4ee0.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-/AdLBCA+eCrgc3fiUb5+p+bFyPCLqrw0KzL3ZgmaGavn2qE0LVSbYhHMxjTRaATkscS7ertVyGYNyRiTvt5d7g==" rel="stylesheet" href="https://github.githubassets.com/assets/site-fc074b04203e782ae07377e251be7ea7.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-zIwoAyS/y3xhZT25949kiC+1lrpqnlMTmb3DAhv46yH/COx643l9UrJFAjvrJZc6K6ndilXloozv5jQelpnRCw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-cc8c280324bfcb7c61653db9f78f6488.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - gee1k/uPic: 📤uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS.</title>
+    <meta name="description" content="📤uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS. - gee1k/uPic">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/190874674/ccb04800-b20b-11e9-8dec-03575e845082" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="gee1k/uPic" /><meta name="twitter:description" content="📤uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS. - gee1k/uPic" />
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/190874674/ccb04800-b20b-11e9-8dec-03575e845082" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="gee1k/uPic" /><meta property="og:url" content="https://github.com/gee1k/uPic" /><meta property="og:description" content="📤uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS. - gee1k/uPic" />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+  <meta name="request-id" content="AA32:3FC6:157024:1D7666:5EA945E1" data-pjax-transient="true"/><meta name="html-safe-nonce" content="113350e40d69bba0be65cdb9cecbd8d7ea4fcda6" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJBQTMyOjNGQzY6MTU3MDI0OjFENzY2Njo1RUE5NDVFMSIsInZpc2l0b3JfaWQiOiI4MDA3NTAyMzkzNjM0Mjc2ODMzIiwicmVnaW9uX2VkZ2UiOiJhcC1ub3J0aGVhc3QtMSIsInJlZ2lvbl9yZW5kZXIiOiJhcC1ub3J0aGVhc3QtMSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="5168a223c769e889765b79ee172c22bb39453816596da0a23ba8e703f73cd174" data-pjax-transient="true"/>
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta http-equiv="x-pjax-version" content="44c2f5ad8ab4acacece86a74629d54f2">
+  
+
+      <link href="https://github.com/gee1k/uPic/commits/master.atom" rel="alternate" title="Recent Commits to uPic:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/gee1k/uPic git https://github.com/gee1k/uPic.git">
+
+  <meta name="octolytics-dimension-user_id" content="12059800" /><meta name="octolytics-dimension-user_login" content="gee1k" /><meta name="octolytics-dimension-repository_id" content="190874674" /><meta name="octolytics-dimension-repository_nwo" content="gee1k/uPic" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="190874674" /><meta name="octolytics-dimension-repository_network_root_nwo" content="gee1k/uPic" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/gee1k/uPic" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production min-width-lg">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+      </span>
+
+      
+      
+
+
+
+          <header class="Header-old header-logged-out  position-relative f4 py-2" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                      <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+                <li class=" mr-3 mr-lg-3">
+                  <a href="/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Team">Team</a>
+                </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex ">
+            <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="190874674" data-scoped-search-url="/gee1k/uPic/search" data-unscoped-search-url="/search" action="/gee1k/uPic/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="qpJTf/KAICaCmsDcJWXqnTCHdPB6eRxrQImUPBIdjA2RibgUNkxZEkgP+FJFCezVtWdGCn5eiR2S6z8qUkW/lQ==" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Fgee1k%2FuPic"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5bebc892d60f0b8b462c38485d41e53ffc44367784001d6ef883831289d4f7ca"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source_repo=gee1k%2FuPic"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5bebc892d60f0b8b462c38485d41e53ffc44367784001d6ef883831289d4f7ca"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+    <div id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  js-flash-template-container">
+  <div class="container-lg px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    
+      <div class="js-flash-template-message"></div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container >
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-3">
+
+    <div class="d-flex container-lg mb-4 px-3">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
+  <span class="flex-self-stretch" style="margin-top: -2px;">
+      <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  </span>
+  <span class="author ml-2 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/gee1k/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/gee1k">gee1k</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/gee1k/uPic">uPic</a>
+  </strong>
+  
+</h1>
+
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 " >
+
+    <li>
+      <details id="funding-links-modal" class="details-reset details-overlay details-overlay-dark d-inline-block float-left" >
+        <summary id="sponsor-button-repo" class="btn btn-sm"
+          title="Sponsor gee1k/uPic"
+          data-ga-click="Repository, show sponsor modal, action:files#disambiguate; text:Sponsor"
+          >
+          <svg class="octicon octicon-heart text-pink v-align-text-bottom" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.727 3C7.091 3 6.001 4.65 6.001 4.65S4.909 3 3.273 3C1.636 3 0 4.1 0 6.3 0 9.6 6 14 6 14s6-4.4 6-7.7C12 4.1 10.364 3 8.727 3z"></path></svg>
+          Sponsor
+        </summary>
+        <details-dialog
+          class="anim-fade-in fast Box Box--overlay d-flex flex-column"
+            src="/gee1k/uPic/funding_links?fragment=1"
+            preload
+          >
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+            </button>
+            <h3 class="Box-title">
+              Sponsor gee1k/uPic
+            </h3>
+          </div>
+          <div class="overflow-auto">
+            <include-fragment
+              >
+              <div class="octocat-spinner my-3" aria-label="Loading..."></div>
+            </include-fragment>
+          </div>
+        </details-dialog>
+      </details>
+    </li>
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ccbadd3c73fbe3a24413a9d0dc5db6144c208c77f22348d09a5c8a7914cf46c9" href="/login?return_to=%2Fgee1k%2FuPic">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+</a>    <a class="social-count" href="/gee1k/uPic/watchers"
+       aria-label="23 users are watching this repository">
+      23
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:190874674,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="075e58426bc81fe0c912825a8201dc7fcf7e4c9367d3da47f94ec717372d4fb7" href="/login?return_to=%2Fgee1k%2FuPic">
+      <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+
+      Star
+</a>
+    <a class="social-count js-social-count" href="/gee1k/uPic/stargazers"
+      aria-label="1358 users starred this repository">
+      1.4k
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:190874674,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f394e497d7f9f26185152735129d4aa40860b0af6b0912642432139b1a5882f1" href="/login?return_to=%2Fgee1k%2FuPic">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+</a>
+    <a href="/gee1k/uPic/network/members" class="social-count"
+       aria-label="107 users forked this repository">
+      107
+    </a>
+  </li>
+</ul>
+
+    </div>
+      <nav class="js-repo-nav js-sidenav-container-pjax clearfix hx_reponav reponav px-3 container-lg"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+  <ul class="list-style-none">
+    <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /gee1k/uPic" href="/gee1k/uPic">
+        <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg></div>
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </li>
+
+      <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /gee1k/uPic/issues" href="/gee1k/uPic/issues">
+          <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>
+          <span itemprop="name">Issues</span>
+          <span class="Counter">7</span>
+          <meta itemprop="position" content="2">
+</a>      </li>
+
+    <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /gee1k/uPic/pulls" href="/gee1k/uPic/pulls">
+        <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg></div>
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="4">
+</a>    </li>
+
+
+      <li itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left ">
+        <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /gee1k/uPic/actions" href="/gee1k/uPic/actions">
+          <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"></path></svg></div>
+          Actions
+</a>
+      </li>
+
+      <li >
+        <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /gee1k/uPic/projects" href="/gee1k/uPic/projects">
+          <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg></div>
+          Projects
+          <span class="Counter">2</span>
+</a>      </li>
+
+
+      <li >
+        <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /gee1k/uPic/security" href="/gee1k/uPic/security">
+          <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"></path></svg></div>
+          Security
+              <span class="Counter js-security-tab-count" data-url="/gee1k/uPic/security/overall-count" hidden></span>
+</a>      </li>
+
+      <li >
+        <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /gee1k/uPic/pulse" href="/gee1k/uPic/pulse">
+          <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg></div>
+          Insights
+</a>      </li>
+
+
+  </ul>
+</nav>
+
+
+  </div>
+
+
+<div class="container-lg clearfix new-discussion-timeline  px-3">
+  <div class="repository-content ">
+
+    
+    
+    <signup-prompt-controller class="signup-prompt-bg rounded-1" data-prompt="signup" hidden>
+    <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+      <div class="position-relative">
+        <button
+          type="button"
+          class="position-absolute top-0 right-0 btn-link link-gray"
+          data-action="click:signup-prompt-controller#dismiss"
+          data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
+        >
+          Dismiss
+        </button>
+        <h3 class="pt-2">Join GitHub today</h3>
+        <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="24841c7fb3607d64be2756947492b52349f8fc0ce999f2a449dd6af156445ea1" href="/join?source=prompt-code&amp;source_repo=gee1k%2FuPic">Sign up</a>
+      </div>
+    </div>
+  </signup-prompt-controller>
+
+
+
+      <div class="">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          
+<g-emoji class="g-emoji" alias="outbox_tray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e4.png">📤</g-emoji>uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS.
+        </span>
+        <span itemprop="url"><a rel="nofollow" href="https://blog.svend.cc/upic">https://blog.svend.cc/upic</a></span>
+  </div>
+</div>
+
+    <div class="repository-topics-container mt-2 mb-3 js-topics-list-container">  <div class="list-topics-container f6">
+      <a class="topic-tag topic-tag-link " href="/topics/swift" title="Topic: swift" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:swift">
+  swift
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/macos-app" title="Topic: macos-app" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:macos-app">
+  macos-app
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/upic" title="Topic: upic" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:upic">
+  upic
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/host" title="Topic: host" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:host">
+  host
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/image-uploader" title="Topic: image-uploader" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:image-uploader">
+  image-uploader
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/smms" title="Topic: smms" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:smms">
+  smms
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/upyun" title="Topic: upyun" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:upyun">
+  upyun
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/qiniu" title="Topic: qiniu" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:qiniu">
+  qiniu
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/qiniu-uploader" title="Topic: qiniu-uploader" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:qiniu-uploader">
+  qiniu-uploader
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/aliyun-oss" title="Topic: aliyun-oss" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:aliyun-oss">
+  aliyun-oss
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/tencent-cos" title="Topic: tencent-cos" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:tencent-cos">
+  tencent-cos
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/weibo" title="Topic: weibo" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:weibo">
+  weibo
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/github" title="Topic: github" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:github">
+  github
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/gitee" title="Topic: gitee" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gitee">
+  gitee
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/amazon" title="Topic: amazon" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:amazon">
+  amazon
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/amazon-s3" title="Topic: amazon-s3" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:amazon-s3">
+  amazon-s3
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/macos" title="Topic: macos" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:macos">
+  macos
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/finder-extension" title="Topic: finder-extension" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:finder-extension">
+  finder-extension
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/notifications" title="Topic: notifications" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:notifications">
+  notifications
+</a>
+
+      <a class="topic-tag topic-tag-link " href="/topics/baiducloud" title="Topic: baiducloud" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:baiducloud">
+  baiducloud
+</a>
+
+  </div>
+</div>
+
+
+
+      <div class="overall-summary border-bottom-0 mb-0 rounded-bottom-0">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/gee1k/uPic/commits/master">
+            <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path></svg>
+            <span class="num text-emphasized">
+              494
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/gee1k/uPic/branches">
+          <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 00-1-3.72C.88 1 0 1.89 0 3a2 2 0 001 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          <span class="num text-emphasized">
+            3
+          </span>
+          branches
+        </a>
+      </li>
+
+        <li>
+          <a data-pjax href="/gee1k/uPic/packages" data-ga-click="Repository, packages click, location:repo overview">
+            <svg class="octicon octicon-package" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 00-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            packages
+          </a>
+
+        </li>
+
+      <li>
+        <a href="/gee1k/uPic/releases">
+          <svg class="octicon octicon-tag" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
+          <span class="num text-emphasized">
+            48
+          </span>
+          releases
+        </a>
+      </li>
+
+        <li >
+            <a href="/gee1k/uPic/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"></path></svg>
+    <span class="num text-emphasized">
+      6
+    </span>
+    contributors
+</a>
+        </li>
+
+        <li>
+          <a href="/gee1k/uPic/blob/master/LICENSE">
+            <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>
+              MIT
+          </a>
+        </li>
+    </ul>
+  </div>
+
+    <details class="details-reset">
+      <summary title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+        <div class="d-flex repository-lang-stats-graph">
+            <span class="language-color" aria-label="Swift 99.8%" style="width:99.8%; background-color:#ffac45;" itemprop="keywords">Swift</span>
+            <span class="language-color" aria-label="Ruby 0.2%" style="width:0.2%; background-color:#701516;" itemprop="keywords">Ruby</span>
+        </div>
+      </summary>
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/gee1k/uPic/search?l=swift"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#ffac45;"></span>
+                <span class="lang">Swift</span>
+                <span class="percent">99.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/gee1k/uPic/search?l=ruby"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">0.2%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </details>
+
+
+
+
+
+
+<div class="file-navigation in-mid-page mb-2 d-flex flex-items-start">
+  
+<details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
+  <summary class="btn css-truncate btn-sm"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/gee1k/uPic/refs/master?source_action=disambiguate&amp;source_controller=files" preload>
+    <div class="SelectMenu-modal">
+      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+      </include-fragment>
+    </div>
+  </details-menu>
+</details>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn ml-2" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+    <div class="BtnGroup ml-2">
+
+      <a class="btn btn-sm empty-icon float-right BtnGroup-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:190874674,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="dcc795e19eac7c78b6ddc8e9816c6798a73f4a949e38b29de15e6a481c5a8611" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/gee1k/uPic/find/master">Find file</a>
+    </div>
+
+
+
+    <span class="d-flex">
+        
+
+        
+<get-repo-controller>
+  <details class="position-relative details-overlay details-reset" data-action="toggle:get-repo-controller#onDetailsToggle">
+    <summary class="btn btn-sm ml-2 btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:190874674,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="95a2bad90b22abf29eeee484715f71f8f094b4b662f88ef71ff6186605ea9622">
+        Clone or download
+      <span class="dropdown-caret"></span>
+</summary>    <div class="position-relative">
+      <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container " data-target="get-repo-controller.modal">
+  
+        <div class="get-repo-modal-options">
+            <div class="clone-options https-clone-options">
+  
+              <h4 class="mb-1">
+                Clone with HTTPS
+                <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                  <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+                </a>
+              </h4>
+              <p class="mb-2 get-repo-decription-text">
+                Use Git or checkout with SVN using the web URL.
+              </p>
+  
+              <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect value="https://github.com/gee1k/uPic.git" aria-label="Clone this repository at https://github.com/gee1k/uPic.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/gee1k/uPic.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:190874674,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="709e6dfc2db84cd087d19314b85656ed1600923d0c181ccfcdc4b2943c4b4109"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></clipboard-copy>
+  </div>
+</div>
+
+            </div>
+  
+          <div class="mt-2 d-flex">
+            <a class="btn btn-outline get-repo-btn tooltipped tooltipped-s tooltipped-multiline js-remove-unless-platform" aria-label="Clone gee1k/uPic to your computer and use it in GitHub Desktop." data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;OPEN_IN_DESKTOP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:190874674,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9653cc0cb65b51bc136c30489c4b1d35f364a4fbf2e47eb58349895518dba245" data-platforms="windows,mac" data-action="click:get-repo-controller#showDownloadMessage" href="https://desktop.github.com">Open in Desktop</a>
+
+<a class="flex-1 btn btn-outline get-repo-btn" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:190874674,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="399afc5e67c78b5777bc267d6ebffe23b4f5d48ac0791b09db57a8974c7453f3" data-ga-click="Repository, download zip, location:repo overview" data-open-app="link" data-action="click:get-repo-controller#showDownloadMessage" href="/gee1k/uPic/archive/master.zip">Download ZIP</a>
+
+          </div>
+        </div>
+  
+          <div data-target="get-repo-controller.platforms" data-platform="link" hidden>
+            <div class="py-2 px-3">
+              <h4 class="lh-condensed mb-3">Downloading<span class="AnimatedEllipsis"></span></h4>
+              <p class="text-gray">
+                Want to be notified of new releases in
+                <span class="text-bold">gee1k/uPic</span>?
+              </p>
+            </div>
+            <div class="width-full d-flex">
+              <a rel="nofollow" class="get-repo-btn btn btn-outline" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:190874674,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c675a07e755de8a7963cf7e7b25fe1b03ae687dacf3c922b252302f1cbcd416" href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgee1k%2FuPic">Sign in</a>
+              <a rel="nofollow" class="get-repo-btn btn btn-primary" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:190874674,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9b6a45f675a193dbc1147ceef8186d9db2db63077ebce6ba6eb985668e984d47" href="/join?branch=master&amp;source=download&amp;source_repo=gee1k%2FuPic">Sign up</a>
+            </div>
+          </div>
+  
+        <div class="py-2 px-3" data-target="get-repo-controller.platforms" data-platform="mac" hidden>
+          <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+          <p><button class="btn-link" data-action="click:get-repo-controller#onDetailsToggle">Go back</button></p>
+        </div>
+  
+        <div class="py-2 px-3" data-target="get-repo-controller.platforms" data-platform="windows" hidden>
+          <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+          <p><button class="btn-link" data-action="click:get-repo-controller#onDetailsToggle">Go back</button></p>
+        </div>
+  
+        <div class="py-2 px-3" data-target="get-repo-controller.platforms" data-platform="xcode" hidden>
+          <h4 class="lh-condensed mb-3">Launching Xcode<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+          <p><button class="btn-link" data-action="click:get-repo-controller#onDetailsToggle">Go back</button></p>
+        </div>
+  
+        <div class="py-2 px-3" data-target="get-repo-controller.platforms" data-platform="visual-studio" hidden>
+          <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+          <p><button class="btn-link" data-action="click:get-repo-controller#onDetailsToggle">Go back</button></p>
+        </div>
+  
+      </div>
+    </div>
+  </details>
+</get-repo-controller>
+
+
+    </span>
+</div>
+
+
+
+
+<div class="Box mb-3 Box--condensed">
+  <div class="Box-header Box-header--blue position-relative "
+    style="margin-bottom:-1px;">
+    <h2 class="sr-only">Latest commit</h2>
+    <div class="commit-tease js-details-container Details d-flex rounded-top-1 flex-auto" data-issue-and-pr-hovercards-enabled>
+        
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="gee1k">
+        <a class="avatar avatar-user" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/gee1k/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/gee1k">
+          <img height="20" width="20" alt="@gee1k" src="https://avatars1.githubusercontent.com/u/12059800?s=60&amp;u=5bbe7352037e8dc8eeb1840de49690bb759a93cd&amp;v=4" class=" avatar-user" />
+</a>  </div>
+</div>
+
+    <div class="flex-auto f6 mr-3">
+      
+      <a href="/gee1k/uPic/commits?author=gee1k"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by gee1k">gee1k</a>
+
+
+  
+
+
+        <a data-pjax="true" title="Merge branch &#39;release/v0.19.1&#39;" class="message text-inherit" href="/gee1k/uPic/commit/dd694f8521ffefb3265c650791734c1d74d4a39c">Merge branch 'release/v0.19.1'</a>
+
+    </div>
+    <div class="no-wrap d-flex flex-self-start flex-items-baseline">
+        <span class="mr-2 flex-self-center">
+          <include-fragment accept="text/fragment+html" src="/gee1k/uPic/commit/dd694f8521ffefb3265c650791734c1d74d4a39c/rollup?direction=w" class="d-inline"></include-fragment>
+        </span>
+      <span class="mr-1">Latest commit</span>
+      <a class="commit-tease-sha mr-1" href="/gee1k/uPic/commit/dd694f8521ffefb3265c650791734c1d74d4a39c" data-pjax>
+        dd694f8
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2020-04-28T10:42:40Z" class="no-wrap">Apr 28, 2020</relative-time></span>
+    </div>
+    </div>
+  </div>
+  <h2 id="files"  class="sr-only">Files</h2>
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gee1k/uPic/tree/dd694f8521ffefb3265c650791734c1d74d4a39c">Permalink</a>
+
+    <table class="files js-navigation-container js-active-navigation-container " data-pjax>
+      <thead>
+        <tr>
+          <th><span class="sr-only">Type</span></th>
+          <th><span class="sr-only">Name</span></th>
+          <th><span class="sr-only">Latest commit message</span></th>
+          <th><span class="sr-only">Commit time</span></th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+        <tr class="warning include-fragment-error">
+          <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></td>
+          <td class="content" colspan="3">Failed to load latest commit information.</td>
+        </tr>
+
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".github" id="01777e4a9846fea5f3fcc8fe40d44680-a96c02e355685088368df881cdc3cfde0539bd6d" href="/gee1k/uPic/tree/master/.github">.github</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Create PULL_REQUEST_TEMPLATE.md" class="link-gray" href="/gee1k/uPic/commit/660f85084b494d9c74f2bc14e13151719c978a36">Create PULL_REQUEST_TEMPLATE.md</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-12-03T05:16:46Z" class="no-wrap">Dec 3, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="uPic.xcodeproj" id="9976c6a0df7b43e0196945d815356012-0083ec5edc883b7f19009504cb57e74cf886fa27" href="/gee1k/uPic/tree/master/uPic.xcodeproj">uPic.xcodeproj</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="签名" class="link-gray" href="/gee1k/uPic/commit/1cc1a666156bc60032c82ae4d82f245b7fda2d44">签名</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-04-28T10:42:14Z" class="no-wrap">Apr 28, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="uPic.xcworkspace" id="43cee2452bbfaea31fad6a3b6e443da6-25232e0088923399578c8395bfe581631f2690f6" href="/gee1k/uPic/tree/master/uPic.xcworkspace">uPic.xcworkspace</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title=":recycle: 重构项目，支持多图床
+
+- 支持多图床 \n-支持全局快捷键" class="link-gray" href="/gee1k/uPic/commit/cd6fdb1c579dc1498886de09562236d1fec6a1c5"><g-emoji class="g-emoji" alias="recycle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/267b.png">♻️</g-emoji> 重构项目，支持多图床</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-06-22T12:34:20Z" class="no-wrap">Jun 22, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="uPic" id="bb2333090c7e20b21dcc1b3afc32c173-6603198e83e4e1666af8c283891b0270a02b182b" href="/gee1k/uPic/tree/master/uPic">uPic</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Support MinIO" class="link-gray" href="/gee1k/uPic/commit/8873f6b41d96f86a17666887263984d4e992d86c">Support MinIO</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-04-12T11:22:54Z" class="no-wrap">Apr 12, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="uPicFinderExtension" id="a26a6b189b691685c3f61235069e35a5-aed8b1e25ad9a8ee66b89e1605f41e305a49d40b" href="/gee1k/uPic/tree/master/uPicFinderExtension">uPicFinderExtension</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Added: Finder extension icon option." class="link-gray" href="/gee1k/uPic/commit/584bb6b9821a416c826effd0dbdf53f6aa5f6059">Added: Finder extension icon option.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-07T12:31:11Z" class="no-wrap">Mar 7, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".all-contributorsrc" id="c47fb5a6d4fde805d2706fc934e8d354-37f6b8eb1631fc5295b45d964426e542de543862" href="/gee1k/uPic/blob/master/.all-contributorsrc">.all-contributorsrc</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title=":pencel:  Update the README" class="link-gray" href="/gee1k/uPic/commit/e65d301acf155a9e608e6c2505143791459f24f1">:pencel: Update the README</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-12-09T09:36:17Z" class="no-wrap">Dec 9, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-0182a7a8ddbadba251c6a33d9e6c35bdfe8f5b78" href="/gee1k/uPic/blob/master/.gitignore">.gitignore</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title=":arrow_up: Upgrading dependencies." class="link-gray" href="/gee1k/uPic/commit/06a04126f9d8ae0d4731c5d3ee788c82517f5c23"><g-emoji class="g-emoji" alias="arrow_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b06.png">⬆️</g-emoji> Upgrading dependencies.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-10-15T08:38:11Z" class="no-wrap">Oct 15, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-1a81a4fcd49b5b19f1b9a1c2f4391e19b94657b9" href="/gee1k/uPic/blob/master/.travis.yml">.travis.yml</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title=":green_heart: Fixing CI Build.
+
+:pencil: Add a CI Build status badge." class="link-gray" href="/gee1k/uPic/commit/db3284221845753ef110e3928669d855673d02fb"><g-emoji class="g-emoji" alias="green_heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f49a.png">💚</g-emoji> Fixing CI Build.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-12-11T09:25:30Z" class="no-wrap">Dec 11, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-25a20ccd6c499325c0ddb118cbef12471ac40010" href="/gee1k/uPic/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="🐛 Fix the problem of weibo upload error 403
+
+🐛 Fix the problem of weibo upload error 403
+🎨 Adjust the position of the configuration interface help button
+🎨 Adjust notification permission request timing" class="link-gray" href="/gee1k/uPic/commit/efc2b560433da02701e67162635bdd14fd9b66a4"><g-emoji class="g-emoji" alias="bug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png">🐛</g-emoji> Fix the problem of weibo upload error 403</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-10-31T07:50:40Z" class="no-wrap">Oct 31, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="LICENSE" id="9879d6db96fd29134fc802214163b95a-c45d803cb7cdae112148afbb6a1e6dd4bb36b144" itemprop="license" href="/gee1k/uPic/blob/master/LICENSE">LICENSE</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Initial commit" class="link-gray" href="/gee1k/uPic/commit/47b37221d64ee1f15af3dea763c4945d43094b63">Initial commit</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-06-08T10:27:05Z" class="no-wrap">Jun 8, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="Podfile" id="4a25b996826623c4a3a4910f47f10c30-e78197ab20cf4db31e8c10156b6252990b150602" href="/gee1k/uPic/blob/master/Podfile">Podfile</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Added: Finder extension icon option." class="link-gray" href="/gee1k/uPic/commit/584bb6b9821a416c826effd0dbdf53f6aa5f6059">Added: Finder extension icon option.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-07T12:31:11Z" class="no-wrap">Mar 7, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="Podfile.lock" id="04fcbd1c0da95c817cfec1af86aa32ad-dce08d6fd1563f37ccabb5f99dd22dc42240c7b1" href="/gee1k/uPic/blob/master/Podfile.lock">Podfile.lock</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Added: Finder extension icon option." class="link-gray" href="/gee1k/uPic/commit/584bb6b9821a416c826effd0dbdf53f6aa5f6059">Added: Finder extension icon option.</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-03-07T12:31:11Z" class="no-wrap">Mar 7, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="README-cn.md" id="ead132e4995157da47b1358bfd1b5da7-66da88c0baa84b338d415fce588c8d910afc22bd" href="/gee1k/uPic/blob/master/README-cn.md">README-cn.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="fixed history was not saved successfully when uploading in command line mode." class="link-gray" href="/gee1k/uPic/commit/ef1e7eca495e873a68c11e5bcf381040849c552e">fixed history was not saved successfully when uploading in command li…</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-04-10T05:56:10Z" class="no-wrap">Apr 10, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-01dc1cb48602d5bc4d28432aa827280d9c7f2f48" href="/gee1k/uPic/blob/master/README.md">README.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="fixed history was not saved successfully when uploading in command line mode." class="link-gray" href="/gee1k/uPic/commit/ef1e7eca495e873a68c11e5bcf381040849c552e">fixed history was not saved successfully when uploading in command li…</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2020-04-10T05:56:10Z" class="no-wrap">Apr 10, 2020</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="ReleaseTutorial.md" id="2b9b1eb03c9f775fc4e3c98804fd41f5-a7c732cd707cd29bbff4b50f55d78f3d19c8d8f8" href="/gee1k/uPic/blob/master/ReleaseTutorial.md">ReleaseTutorial.md</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title=":bug: update SUFeedURL" class="link-gray" href="/gee1k/uPic/commit/a6a4eb63329ed2ed710e5e33bc0fc45283981f0d"><g-emoji class="g-emoji" alias="bug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png">🐛</g-emoji> update SUFeedURL</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-11-20T14:20:42Z" class="no-wrap">Nov 20, 2019</time-ago></span>
+            </td>
+          </tr>
+          <tr class="js-navigation-item">
+            <td class="icon">
+              <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+              <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
+            </td>
+            <td class="content">
+              <span class="css-truncate css-truncate-target"><a class="js-navigation-open " title="_config.yml" id="aeb42283af8ef8e9da40ededd3ae2ab2-3397c9a4928e1b41957484ee4e53e78da37224e8" href="/gee1k/uPic/blob/master/_config.yml">_config.yml</a></span>
+            </td>
+            <td class="message">
+              <span class="css-truncate css-truncate-target">
+                    <a data-pjax="true" title="Set theme jekyll-theme-architect" class="link-gray" href="/gee1k/uPic/commit/5af0406e97d28ea0a17244018f39c156842aca32">Set theme jekyll-theme-architect</a>
+              </span>
+            </td>
+            <td class="age">
+              <span class="css-truncate css-truncate-target"><time-ago datetime="2019-06-09T03:42:13Z" class="no-wrap">Jun 9, 2019</time-ago></span>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+
+
+</div>
+
+  <div id="readme" class="Box md js-code-block-container Box--condensed">
+    <div class="Box-header d-flex flex-items-center flex-justify-between ">
+      <h2 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+        README.md
+      </h2>
+    </div>
+        <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/gee1k/uPic/find-symbols"
+     data-tagsearch-ref="master"
+     data-tagsearch-path="README.md"
+     data-tagsearch-lang="Markdown"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:190874674,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/gee1k/uPic&quot;,&quot;user_id&quot;:null}}"
+     data-hydro-click-hmac="c0c3da9c542f1f06286ad23f15c5bee427d54d64c40fcbf1498bda1d4bbdf23d">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
+
+      <div class="Box-body p-5">
+        <article class="markdown-body entry-content" itemprop="text"><div align="right"><strong><a href="/gee1k/uPic/blob/master/README-cn.md"><g-emoji class="g-emoji" alias="cn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e8-1f1f3.png">🇨🇳</g-emoji>中文</a></strong>  | <strong><g-emoji class="g-emoji" alias="gb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png">🇬🇧</g-emoji>English</strong></div>
+<div align="center">
+  <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/gee1k/oss/master/screenshot/uPic/logo.png"><img src="https://raw.githubusercontent.com/gee1k/oss/master/screenshot/uPic/logo.png" alt="uPic" style="max-width:100%;"></a>
+  <br>
+  <br>
+  <p>
+    Picture and file upload tool for macOS. - A native, powerful, beautiful and simple  
+  </p>
+  <p>
+</p><p><a href="https://travis-ci.org/gee1k/uPic" rel="nofollow"><img src="https://camo.githubusercontent.com/3055bf61a119f4dcd0e69328d54895c4e9a10e8d/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f676565316b2f755069632e7376673f7374796c653d666c61742d737175617265266c6f676f3d547261766973" alt="Travis Build Status" data-canonical-src="https://img.shields.io/travis/gee1k/uPic.svg?style=flat-square&amp;logo=Travis" style="max-width:100%;"></a> <a href="https://github.com/gee1k/uPic/releases/latest"><img src="https://camo.githubusercontent.com/f808edecb40abafd274f6878a8d63ab47b0e516a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f676565316b2f755069633f6c6162656c3d76657273696f6e267374796c653d666c61742d737175617265266c6f676f3d476974487562" alt="GitHub release" data-canonical-src="https://img.shields.io/github/release/gee1k/uPic?label=version&amp;style=flat-square&amp;logo=GitHub" style="max-width:100%;"></a> <a href="https://github.com/gee1k/uPic/releases"><img src="https://camo.githubusercontent.com/ad180a30b2dc1cab4a56549f21a4e9546c183ef6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f676565316b2f755069632f746f74616c2e7376673f7374796c653d666c61742d737175617265" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/gee1k/uPic/total.svg?style=flat-square" style="max-width:100%;"></a> <a href="https://github.com/gee1k/uPic/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/5f0d61a5dffae8ea19716943ea4f784a64c186d1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f676565316b2f755069633f7374796c653d666c61742d737175617265" alt="MIT" data-canonical-src="https://img.shields.io/github/license/gee1k/uPic?style=flat-square" style="max-width:100%;"></a></p>
+<p><a href="https://paypal.me/geeek" rel="nofollow"><img src="https://camo.githubusercontent.com/dc4ecd0c334f0c00b13b16c1eab2e41f4edb0e18/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f737570706f72742d50617950616c2d626c75653f7374796c653d666c61742d737175617265266c6f676f3d50617950616c" alt="Donate on PayPal" data-canonical-src="https://img.shields.io/badge/support-PayPal-blue?style=flat-square&amp;logo=PayPal" style="max-width:100%;"></a> <a href="https://t.me/upic_host" rel="nofollow"><img src="https://camo.githubusercontent.com/3d929d2da8590707607341807fb0529731bd656d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636861742d54656c656772616d2d626c756576696f6c65743f7374796c653d666c61742d737175617265266c6f676f3d54656c656772616d" alt="Chat on Telegram" data-canonical-src="https://img.shields.io/badge/chat-Telegram-blueviolet?style=flat-square&amp;logo=Telegram" style="max-width:100%;"></a> <a href="https://twitter.com/geee1k" rel="nofollow"><img src="https://camo.githubusercontent.com/ee3bf171f7be485070a8160d1d63cc909b15a6a7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666f6c6c6f772d54776565742d626c75653f7374796c653d666c61742d737175617265266c6f676f3d54776974746572" alt="Follow My Twitter" data-canonical-src="https://img.shields.io/badge/follow-Tweet-blue?style=flat-square&amp;logo=Twitter" style="max-width:100%;"></a> <a href="https://weibo.com/6436660358" rel="nofollow"><img src="https://camo.githubusercontent.com/c61af9961a5c9cf7cd159541ae2b8bdcd0ab9f58/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666f6c6c6f772d576569626f2d7265643f7374796c653d666c61742d737175617265266c6f676f3d73696e612d776569626f" alt="Follow My Twitter" data-canonical-src="https://img.shields.io/badge/follow-Weibo-red?style=flat-square&amp;logo=sina-weibo" style="max-width:100%;"></a></p>
+  <p></p>
+</div>
+<hr>
+<p><strong><g-emoji class="g-emoji" alias="two_men_holding_hands" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f46c.png">👬</g-emoji>Chat: <em><a href="https://t.me/upic_host" rel="nofollow">Telegram</a>, <a href="https://twitter.com/geee1k" rel="nofollow">Twitter</a>, <a href="https://weibo.com/6436660358" rel="nofollow">Weibo</a>, <a href="https://raw.githubusercontent.com/gee1k/oss/master/personal/geee1k.JPG" rel="nofollow">Wechat Group</a></em></strong></p>
+<p><strong><g-emoji class="g-emoji" alias="coffee" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png">☕️</g-emoji>Donate: <em><a href="https://paypal.me/geeek" rel="nofollow">Paypal</a>, <a href="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/alipay.JPG" rel="nofollow">Alipay</a>, <a href="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/wechat_pay.JPG" rel="nofollow">WechatPay</a></em></strong></p>
+<h2><a id="user-content--introduction" class="anchor" aria-hidden="true" href="#-introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="bookmark_tabs" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d1.png">📑</g-emoji> Introduction</h2>
+<blockquote>
+<p><strong>uPic(upload Picture) is a image(file) hosting client for Mac.</strong></p>
+</blockquote>
+<p><strong><g-emoji class="g-emoji" alias="bulb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png">💡</g-emoji> Tips：</strong> They can automatic uploading local file and screenshot, meanwhile the menu bar shows the uploading progress constantly. File's link will automatically copied to the clipboard when finish upload, make you insert pictures quickly when you are blogging or chatting. Link’s format can be a normal URL, HTML or Markdown, it's totally up to you.</p>
+<p><strong><g-emoji class="g-emoji" alias="battery" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50b.png">🔋</g-emoji> Support image hosting：</strong><a href="https://sm.ms/" rel="nofollow">smms</a>, <a href="https://www.upyun.com/products/file-storage" rel="nofollow">UPYUN USS</a>, <a href="https://www.qiniu.com/products/kodo" rel="nofollow">qiniu KODO</a>, <a href="https://www.aliyun.com/product/oss/" rel="nofollow">Aliyun OSS</a>, <a href="https://cloud.tencent.com/product/cos" rel="nofollow">TencentCloud COS</a>, <a href="https://cloud.baidu.com/product/bos.html" rel="nofollow">BaiduCloud BOS</a>, <a href="https://weibo.com/" rel="nofollow">Weibo</a>, <a href="https://github.com/settings/tokens">Github</a>, <a href="https://gitee.com/profile/personal_access_tokens" rel="nofollow">Gitee</a>, <a href="https://aws.amazon.com/cn/s3/" rel="nofollow">Amazon S3</a>, <a href="https://imgur.com/" rel="nofollow">Imgur</a>, <a href="https://blog.svend.cc/upic/tutorials/custom" rel="nofollow">custom upload api</a>, ...</p>
+<h2><a id="user-content--how-to-install" class="anchor" aria-hidden="true" href="#-how-to-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> How to install</h2>
+<h3><a id="user-content-1-homebrewrecommend" class="anchor" aria-hidden="true" href="#1-homebrewrecommend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Homebrew(Recommend):</h3>
+<pre><code>brew cask install upic
+</code></pre>
+<h3><a id="user-content-2-download-from-github" class="anchor" aria-hidden="true" href="#2-download-from-github"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Download from github</h3>
+<p>Click <a href="https://github.com/gee1k/uPic/releases">release</a> to download.</p>
+<p><strong>If you have difficulty accessing Github in mainland China, you can download it from <a href="https://gitee.com/gee1k/uPic/releases" rel="nofollow">Gitee release</a>.</strong></p>
+<h3><a id="user-content-check-finder-extensionss-authority" class="anchor" aria-hidden="true" href="#check-finder-extensionss-authority"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Check Finder Extensions's authority</h3>
+<ul>
+<li>
+<ol>
+<li>Run uPic</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Open <code>System preferences</code> - <code>Extensions</code> - <code>Finder Extensions</code> make sure that <code>uPicFinderExtension</code> is be selected</li>
+</ol>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/df207f55a39937945e2c778a00d8a3dece86fc2a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f66696e6465722d657874656e73696f6e2e706e67"><img src="https://camo.githubusercontent.com/df207f55a39937945e2c778a00d8a3dece86fc2a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f66696e6465722d657874656e73696f6e2e706e67" height="300" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/finder-extension.png" style="max-width:100%;"></a>
+
+</li>
+</ul>
+<h2><a id="user-content--how-to-use-it" class="anchor" aria-hidden="true" href="#-how-to-use-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="joystick" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f579.png">🕹</g-emoji> How to use it</h2>
+<table>
+<thead>
+<tr>
+<th>Upload method</th>
+<th>Description</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="desktop_computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5a5.png">🖥</g-emoji> Select files</strong></td>
+<td>Select the file to upload from <code>Finder</code>.  <code>Can set global shortcuts</code></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/42fbdc3ccc3ce604175725e843934f2b9204a211/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73656c65637446696c652e676966"><img src="https://camo.githubusercontent.com/42fbdc3ccc3ce604175725e843934f2b9204a211/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73656c65637446696c652e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/selectFile.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="keyboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2328.png">⌨️</g-emoji> Copy file upload</strong></td>
+<td>Upload a file that has been copied to the clipboard.  <code>Can set global shortcuts</code></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c19652eb4b9699880f7d6dcc7d4f0fe7003de870/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f7061737465626f6172642e676966"><img src="https://camo.githubusercontent.com/c19652eb4b9699880f7d6dcc7d4f0fe7003de870/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f7061737465626f6172642e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/pasteboard.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="camera_flash" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f8.png">📸</g-emoji> Screenshot upload</strong></td>
+<td>Directly pull frame screenshot upload.  <code>Can set global shortcuts</code></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fa5603993519df7b37e24283476c2e12a151e890/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73637265656e73686f742e676966"><img src="https://camo.githubusercontent.com/fa5603993519df7b37e24283476c2e12a151e890/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73637265656e73686f742e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/screenshot.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Drag and drop local file upload</strong></td>
+<td>Drag and drop files to the status bar to upload</td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/795fb70a9bf169a256a5911df88bd2a99a79ae6e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f6472616746696c652e676966"><img src="https://camo.githubusercontent.com/795fb70a9bf169a256a5911df88bd2a99a79ae6e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f6472616746696c652e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/dragFile.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Drag and drop browser image upload</strong></td>
+<td>Drag image from browser to status bar to upload</td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5703abaea9d15840ccd0fc018aecd5a7b5c46ed1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f6472616746726f6d42726f777365722e676966"><img src="https://camo.githubusercontent.com/5703abaea9d15840ccd0fc018aecd5a7b5c46ed1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f6472616746726f6d42726f777365722e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/dragFromBrowser.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="open_file_folder" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c2.png">📂</g-emoji> Finder contextmenu upload</strong></td>
+<td>Right click on file upload</td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/a43941534546d429dd847dff3bf130bf7c05ab68/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f636f6e746578746d656e752e676966"><img src="https://camo.githubusercontent.com/a43941534546d429dd847dff3bf130bf7c05ab68/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f636f6e746578746d656e752e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/contextmenu.gif" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<td><strong><g-emoji class="g-emoji" alias="keyboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2328.png">⌨️</g-emoji> Command line upload</strong></td>
+<td>Invoke uPic to upload files by executing commands</td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6baf7d9003ce07179731566589ac81da64e9d314/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f636c692e676966"><img src="https://camo.githubusercontent.com/6baf7d9003ce07179731566589ac81da64e9d314/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f636c692e676966" alt="" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/cli.gif" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<h2><a id="user-content--more-features" class="anchor" aria-hidden="true" href="#-more-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="toolbox" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f9f0.png">🧰</g-emoji> More features</h2>
+<h3><a id="user-content-1-global-shortcut-key" class="anchor" aria-hidden="true" href="#1-global-shortcut-key"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Global shortcut key</h3>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/10754f7ec9cb16420a91fd6e171930e7b642df60/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73686f7274637574732e706e67"><img src="https://camo.githubusercontent.com/10754f7ec9cb16420a91fd6e171930e7b642df60/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f73686f7274637574732e706e67" height="300" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/shortcuts.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-2-upload-history" class="anchor" aria-hidden="true" href="#2-upload-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Upload history</h3>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/a465542090ccdb5c0a77eacb9d17ceb6aa06fd5b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f686973746f72792e706e67"><img src="https://camo.githubusercontent.com/a465542090ccdb5c0a77eacb9d17ceb6aa06fd5b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f676565316b2f6f7373406d61737465722f73637265656e73686f742f755069632d656e2f686973746f72792e706e67" height="300" data-canonical-src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/history.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-️-support" class="anchor" aria-hidden="true" href="#️-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Support</h2>
+<p>Think uPic will help you? You can buy me a cup of coffee</p>
+<table>
+<thead>
+<tr>
+<th>PayPal</th>
+<th>Alipay</th>
+<th>WechatPay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://paypal.me/geeek" rel="nofollow">paypal.me/geeek</a></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/Donate_Alipay.jpg"><img src="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/Donate_Alipay.jpg" alt="AliPay" style="max-width:100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/Donate_WeChatPay.jpg"><img src="https://raw.githubusercontent.com/gee1k/oss/master/qrcode/Donate_WeChatPay.jpg" alt="WeChatPay" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<h2><a id="user-content--contributors" class="anchor" aria-hidden="true" href="#-contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji> Contributors</h2>
+<h3><a id="user-content-code-contributors" class="anchor" aria-hidden="true" href="#code-contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code Contributors</h3>
+<p>This project exists thanks to all the people who contribute. [<a href="/gee1k/uPic/blob/master/CONTRIBUTING.md">Contribute</a>].
+<a href="https://github.com/gee1k/uPic/graphs/contributors"><img src="https://camo.githubusercontent.com/b04af77378dc4460011951c9720daad42586c01a/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f755069632f636f6e7472696275746f72732e7376673f77696474683d38393026627574746f6e3d74727565" data-canonical-src="https://opencollective.com/uPic/contributors.svg?width=890&amp;button=true" style="max-width:100%;"></a></p>
+<h3><a id="user-content-other-contributors" class="anchor" aria-hidden="true" href="#other-contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Contributors</h3>
+<p>Thanks goes to these wonderful people (<a href="https://allcontributors.org/docs/en/emoji-key" rel="nofollow">emoji key</a>):</p>
+
+
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://alley.js.org" rel="nofollow"><img src="https://avatars1.githubusercontent.com/u/19723234?v=4" width="100px;" alt="alley" style="max-width:100%;"><br><sub><b>alley</b></sub></a><br><a href="#translation-m01i0ng" title="Translation"><g-emoji class="g-emoji" alias="earth_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png">🌍</g-emoji></a></td>
+    <td align="center"><a href="https://github.com/Jackxun123"><img src="https://avatars2.githubusercontent.com/u/33611532?v=4" width="100px;" alt="Jackxun123" style="max-width:100%;"><br><sub><b>Jackxun123</b></sub></a><br><a href="#translation-Jackxun123" title="Translation"><g-emoji class="g-emoji" alias="earth_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png">🌍</g-emoji></a></td>
+    <td align="center"><a href="https://github.com/kkkkkkyrie"><img src="https://avatars2.githubusercontent.com/u/30786071?v=4" width="100px;" alt="eleven" style="max-width:100%;"><br><sub><b>eleven</b></sub></a><br><a href="#translation-kkkkkkyrie" title="Translation"><g-emoji class="g-emoji" alias="earth_africa" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png">🌍</g-emoji></a></td>
+    <td align="center"><a href="https://immx.io/" rel="nofollow"><img src="https://avatars1.githubusercontent.com/u/16921591?v=4" width="100px;" alt="zhucebuliaomax" style="max-width:100%;"><br><sub><b>zhucebuliaomax</b></sub></a><br><a href="#design-ihatework" title="Design"><g-emoji class="g-emoji" alias="art" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png">🎨</g-emoji></a></td>
+  </tr>
+</tbody></table>
+
+
+
+<hr>
+<p><strong>uPic</strong> © <a href="https://github.com/gee1k">Svend</a>, Released under the <a href="/gee1k/uPic/blob/master/LICENSE">MIT</a> License.<br>
+Authored and maintained by Svend with help from contributors (<a href="https://github.com/gee1k/uPic/contributors">list</a>).</p>
+</article>
+      </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-Qb7XHcWIafGt8U6FsJrxJqGCgszwjKK1zXv1+fAjIz0HDaYppswlGLxEInNMN2dlMBAZnZNSZL8wAvvhKxYx3A==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-41bed71d.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-327XCyOytNBlvvFRes7NYmY/gSME67CreRw+pR2DhNKBfEb2Sv0pe/XkZUSqYYlgGdDnaGIKUAb4oRZBLdKBfw==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-df6ed70b.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-F/a9shOtcNtzh1TGcg+WSYtzILYRGcwZn+j5Tr44yJlRME2OHa/zkTczdYWNFB76woZT94VgorT89eIq7kkACw==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-17f6bdb2.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-R8KeNgRgdOWNl8l9+FRezmk6PbscOHGR9q2BtQY/L/7gtfOSf0td5j41Z7ikwW1UbAU93sjwKfzhPDW/YTOpfw==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-47c29e36.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+
+  </body>
+</html>
+
